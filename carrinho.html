@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="carrinho.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+
+    <header>
+        <h1>Carrinho de Compras</h1>
+        <div>
+            <a href="index.html">
+                <button>Voltar para a Loja</button>
+            </a>
+        </div>
+    </header>
+
+    <section id="products">
+        <div id="carrinho-itens">
+            <!-- Itens do carrinho serão carregados aqui via JavaScript -->
+        </div>
+
+        <div id="total">
+            <h3>Total: R$ <span id="total-preco">0.00</span></h3>
+            <button id="finalizar-compra">Finalizar Compra</button>
+        </div>
+    </section>
+
+    <script src="carrinho.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+</html>
